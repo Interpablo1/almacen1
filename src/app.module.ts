@@ -6,6 +6,9 @@ import { AlmacenesModule } from './almacenes/almacenes.module';
 import { ProveedoresModule } from './proveedores/proveedores.module';
 import { ProductosModule } from './productos/productos.module';
 import { InventarioModule } from './inventario/inventario.module';
+import { OrdenesModule } from './ordenes/ordenes.module';
+import { AlertasModule } from './alertas/alertas.module';
+import { TransaccionesModule } from './transacciones/transacciones.module';
 
 @Module({
   imports: [
@@ -31,6 +34,9 @@ import { InventarioModule } from './inventario/inventario.module';
     ProductosModule,
     InventarioModule,
     CommonModule,
+    OrdenesModule,
+    AlertasModule,
+    TransaccionesModule,
   ],
   controllers: [],
   providers: [],
